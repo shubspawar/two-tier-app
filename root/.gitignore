@@ -1,0 +1,18 @@
+/**/*.tfstate*
+/**/.terraform
+
+./module/key/eks_demo1
+./module/key/eks_demo1.pub
+# Local .terraform directories
+**/.terraform/*
+.terraform/*
+*.hcl
+*.lock*
+../.terraform/*
+terraform.*
+*.tfvars*
+
+# .tfstate files
+*.tfstate
+/**/*.tfstate*
+*.tfstate.*
